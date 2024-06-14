@@ -1,0 +1,121 @@
+/*estilos para cuerpo*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(58, 109, 66); /* Color de fondo */
+}
+/*estilos para encabezado*/
+header {
+    background-color: rgb(78, 146, 88);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/*ajustar propiedades letra h1*/
+h1{
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+        font-size: 70px; /* Tamaño de fuente */
+}
+/*estilos para lista en clase secciones*/
+.secciones ul{
+    color: white;
+    padding: 30px;
+
+}
+/*estilos para lista en clase secciones*/
+.secciones li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+}
+/*estilos para lista en clase secciones*/
+.secciones a{
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 37px;
+    display: inline-block;
+    padding: 50px;
+}
+/*estilos para seccion contenido*/
+#contenido {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/*estilos para clase fila*/
+.fila {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+/*estilos para clase caja*/
+.caja {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+/*estilos para clase imagen*/
+.imagen {
+    width: 100%;
+    border-radius: 10px;
+}
+/*estilos para clase separador*/
+.separador {
+    width: 5%;
+}
+/*estilos para pie de página*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+.task.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+.task button {
+    margin-left: auto;
+}
+.tareas{
+    max-width: 1000px;
+    padding: 1px;
+    border-radius: 10px;
+    margin-left:19%;
+    text-align: center;
+    background-color: rgb(78, 146, 88);
+}
+.frases{
+    max-width: 1000px;
+    padding: 1px;
+    border-radius: 10px;
+    margin-left: 19%;
+    text-align: center;
+    background-color: rgb(78, 146, 88);
+    margin-bottom: 30px;
+}
+#buttonFrase{
+    background-color: rgb(82, 155, 93);
+    width: 200px;
+    height: 100px;
+color: white;
+}
